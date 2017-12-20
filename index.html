@@ -2,10 +2,11 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Crystal Mountain</title>
+    <title>Godzilla!</title>
 
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
 
  </head>
@@ -14,18 +15,21 @@
 
 	<body>
 
-		 <h1>Crystal Collector!</h1>
+
+
+
+		 <h1>Godzilla Stomp!</h1>
 
 		<p> 
 			You will be given a random number at the start of the game.
 			<br>
-			There are four crystals below. By clicking on a crystal, it will add a specific number to your total.
+			There are four monsters below. By clicking on a monster, it will add a specific number to your total.
 			<br>
 			You win once your total score matches the number you were randomly given at the start. 
 			<br>
 			You lose if you go over the total.
 			<br>
-			Each time the game starts, it will change the value of each crystal.
+			Each time the game starts, it will change the value of each monster.
 			<br>
 			Good luck!
 			<br>
@@ -42,19 +46,58 @@
 
 		<div id="winloss">
 
-				Wins:0
+				Wins:<span id="wins">0</span>
 
 				<br>
 
-				Losses:0
+				Losses:<span id="losses">0</span>
 
 		</div>
 
+	<div class="cleardiv"></div>
+
+	<div class="image">
+			
+			<img src="assets/images/og.jpg" id="og">
+
+	</div>
+
+	<div class="image">
+		
+			<img src="assets/images/fire.jpg">
+			<span id="fire"></span>
+
+	</div>
+
+	<div class="image">
+		
+			<img src="assets/images/2000.jpg" id="2000">
+
+	</div>
+
+	<div class="image">
+		
+			<img src="assets/images/mecha.jpg" id="mecha">
+
+	</div>
+
+	<div class="cleardiv"></div>
+
+	<div id="total">
+		
+		Your total score is:
+
+		<br>
+
+		<span id="totalscore">0</span>
+
+	</div>
 
 
 
 
 	</body>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
  </html>

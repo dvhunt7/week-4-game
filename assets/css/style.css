@@ -30,6 +30,7 @@ body p {
 	float: left;
 	font-size: 25px;
 	font-weight: bold;
+	line-height: 35px;
 }
 
 #winloss {
@@ -42,3 +43,28 @@ body p {
 	line-height: 35px;
 	height: 80px;
 }
+
+.cleardiv {
+	clear:left;
+}
+
+.image img {
+	float: left;
+	height: 250px;
+	width: 225px;
+	margin: 20px;
+}
+
+.img span {
+	visibility: hidden;
+}
+
+#total {
+	background-color: red;
+	margin: 20px;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 35px;
+	height: 80px;
+}
+
