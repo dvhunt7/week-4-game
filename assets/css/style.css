@@ -10,6 +10,7 @@ h1 {
 	padding: 30px;
 	font-size: 60px;
 	font-weight: bold;
+	border-radius: 10px;
 }
 
 body p {
@@ -19,6 +20,7 @@ body p {
 	line-height: 35px;
 	font-size: 20px;
 	font-weight: bold;
+	border-radius: 10px;
 }
 
 #randomNumber {
@@ -30,6 +32,7 @@ body p {
 	font-size: 25px;
 	font-weight: bold;
 	line-height: 35px;
+	border-radius: 10px;
 }
 
 #winloss {
@@ -41,6 +44,7 @@ body p {
 	font-size: 25px;
 	line-height: 35px;
 	height: 80px;
+	border-radius: 10px;
 }
 
 .cleardiv {
@@ -63,5 +67,6 @@ body p {
 	font-size: 25px;
 	line-height: 35px;
 	height: 80px;
+	border-radius: 10px;
 }
 
